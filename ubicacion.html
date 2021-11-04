@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+     <!--Fuentes-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+    
+<body>
+
+    <!-- Navegador -->
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="#0"><img src="img/logo.png" alt="Logo"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+    <h1> Encuentra nuestra tienda</h1>
+
+    <div class="video">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28267.41878723589!2d-75.59972996874352!3d6.245496623034132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44298efca9fd7f%3A0xd34ce31daf02b22d!2sViajes%20%C3%89xito%20Colombia!5e0!3m2!1ses!2sco!4v1635997400299!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>    
+
+    <!--PIE DE PÁGINA-->
+    <footer class="footer">
+
+      <!--caja 1-->
+      <div class="caja">
+          <h2>Acerca de nosotros</h2>
+          <p>Ser facilitadores de nuestros clientes, brindando un servicio personalizado con información
+              confiable y oportuna; actuando como asesores tratamos de interpretar y satisfacer sus
+              necesidades. 
+          </p>
+      </div>
+
+      <!--caja 2-->
+      <div class="caja">
+          <h2>Contáctenos</h2>
+          <p>(604) 4484827- 4083553
+             <br> 3006102802
+             <br> Cr 66 B No. 34A - 76
+             <br>C.C. Unicentro Medellin Local 226
+             <br>servicios@turismocolombia.com.co
+          </p>
+      </div>
+    </footer>
+    <!--FIN PIE DE PÁGINA-->
+  
+
+    <!--Javascript-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <!-- Fin del slider -->
+
+    <!-- .cd-main-content -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+        if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+    </script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</body>
+</html>
