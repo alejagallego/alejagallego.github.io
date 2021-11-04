@@ -146,4 +146,133 @@ p {
     letter-spacing: .4px;
     text-align: center;}
 
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+    .cabezote {
+        flex-direction: column;}
+
+    .logo{
+        width: 35%;}
+
+    .caja-menu{
+        font-size: 25px;}
+
+    .caja-menu ul li a{
+        padding: 5px 25px;} 
+
+    .card_1 {
+        padding: 12px;
+        margin: 5px;}
+
+    .galeria {
+        flex-direction: column;}
+
+    .item {
+        margin-bottom: 10px;
+        margin-top: 5px;}
+
+    .video {
+        width: 1%;}
+        
+ }
+  
+  /* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .cabezote {
+        flex-direction: column;}
+
+    .logo{
+        width: 40%;}
+
+    .caja-menu{
+        font-size: 20px;}
+
+    .caja-menu ul li a{ 
+        color: #001b04;
+        padding: 5px 25px;} 
+
+    .contenedor{
+        flex-direction: column;}
+
+    .card_1 {
+        padding: 15px;
+        margin: 12px;}
+
+    p { 
+        font-size: 15px;}
+
+    h1 { 
+        font-size: 30px;}
+
+    h2 { 
+        font-size: 20px;}
+
+    h3 { 
+        font-size: 15px;}
+
+    .hiper a {
+        font-size: 15px;}
+
+    .galeria {
+        flex-direction: column;}
+
+    .item {
+        margin-bottom: 10px;
+        margin-top: 5px;}
+
+    .video {
+        width: 1%;
+    }
+  }
+  
+  /* ##Dispositivo = Smartphones de 320px a 479px */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .cabezote {
+        flex-direction: column;}
+
+    .logo{
+        width: 50%;}
+
+    .caja-menu{
+        font-size: 15px;}
+
+    .caja-menu ul li a{ 
+        color: #001b04;
+        padding: 5px 10px;} 
+
+    .contenedor{
+        flex-direction: column;}
+    
+    .card_1 {
+        padding: 15px;
+        margin: 10px;}
+
+    h1 { 
+        font-size: 20px;}
+    
+    h2 { 
+        font-size: 16px;}
+    
+    h3 { 
+        font-size: 12px;}
+
+    .galeria {
+        flex-direction: column;}
+
+    .item {
+        margin-bottom: 10px;
+        margin-top: 5px;}
+
+    .video {
+        width: 1%;}
+    
+  }
+
+
 
